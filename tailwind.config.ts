@@ -14,8 +14,13 @@ const config: Config = {
         lg:"768px",
         xl:"768px",
         "2xl":"768px",
-      }
+      },
+      padding:{
+        DEFAULT:"1.5rem"
+      },
+      center:true,
     },
+
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
